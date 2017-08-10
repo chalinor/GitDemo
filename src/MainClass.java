@@ -8,6 +8,9 @@ public class MainClass {
 	PersonInfo p2 = new PersonInfo("John Doe");
 	p2.displayInfo();
 	
+	PersonInfo p3 = new PersonInfo("Peter Pan");
+	p3.displayInfo();
+	
 	}
 
 }
