@@ -11,6 +11,9 @@ public class MainClass {
 	PersonInfo p3 = new PersonInfo("Peter Pan");
 	p3.displayInfo();
 	
+	PersonInfo p4 = new PersonInfo("Kim Santos");
+	p4.displayInfo();
+	
 	}
 
 }
