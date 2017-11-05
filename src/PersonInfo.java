@@ -2,14 +2,15 @@
 public class PersonInfo {
 
 	private String name;
+	private int age;
 
-	public PersonInfo(String name) {
-		super();
-		this.name = name;
+	public PersonInfo() {
+		name = null;
+		age = 0;
 	}
 	
 	public void displayInfo(){
-		System.out.println("Name: "+name);
+		System.out.println("Name: "+name+ "\nAge: "+age);
 	}
 
 	public String getName() {
@@ -18,6 +19,14 @@ public class PersonInfo {
 
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
 	}
 	
 	
